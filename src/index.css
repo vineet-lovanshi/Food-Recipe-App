@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0ecec;
+}
+
+.meals img {
+  width: 100%;
+  height: 170px;
+  border-radius: 11px 11px 0px 0px;
+}
+.mealImg {
+  width: 240px;
+  height: 280px;
+  text-align: center;
+  background-color: #ecfefe;
+  box-shadow: 0px 3px 3px 3px rgb(223, 215, 215);
+  border-radius: 11px;
+}
+.mealImg p {
+  font-weight: 600;
+  margin-top: 8px;
+}
+.mealImg button {
+  width: 120px;
+  background-color: orange;
+  color: white;
+  font-size: 14px;
+  border: none;
+  border-radius: 21px 0px 21px 21px;
+  padding: 7px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+.mealImg button:hover {
+  background-color: rgb(251, 183, 57);
+}
+.mealInfo {
+  background-color: rgba(255, 213, 0, 0.908);
+  border-radius: 10px;
+}
