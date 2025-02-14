@@ -23,7 +23,7 @@ const MealInfo = () => {
   return (
     <>
       {!info ? (
-        <p className="text-gray-700 text-lg">Recipe Not Found</p>
+        <p className="text-gray-700 text-lg">Data Not Found</p>
       ) : (
         <div className="mealInfo   flex flex-col md:flex-row items-center gap-4 md:gap-6 p-4 max-w-4xl mx-auto h-[90vh] overflow-hidden">
           <img
